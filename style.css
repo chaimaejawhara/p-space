@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+span{
+    font-family: 'Roboto', sans-serif;
+    font-size:30px;
+    color: #1E90FF;
+}
+.container{
+    display: flex;
+    width:500px;
+    align-items: center;
+    align-content: center;
+}
+.card{
+    width: 500px;
+    border-radius: 40px;
+}
+.forgotPsw{
+    margin-left: 70px;
+    color: #1E90FF;
+}
+.logBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.btn-primary{
+    width: 200px;
+    border-radius: 20px;
+    background-color:#1E90FF ;
+}
+h1{
+    color: #1E90FF;
+}
+.form-check-input:checked{
+     background-color: #1E90FF;
+}
+.bg-light{
+    background-color: white;
+}
