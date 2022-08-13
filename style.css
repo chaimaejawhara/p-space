@@ -38,3 +38,9 @@ h1{
 .bg-light{
     background-color: white;
 }
+footer{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-end;     */
+    margin-top: 125px;
+}
