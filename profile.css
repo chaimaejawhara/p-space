@@ -34,11 +34,8 @@ section {
     position: relative;
     display: inline-block;
 }
-.text-primary {
-    color: #ceaa4d !important;
-}
 .text-secondary {
-    color: #15395A !important;
+    color: #1e90ff !important;
 }
 .font-weight-600 {
     font-weight: 600;
@@ -67,7 +64,7 @@ section {
 }
 
 .bg-secondary {
-    background: #15395A !important;
+    background: #1e90ff !important;
 }
 @media screen and (min-width: 576px){
     .pe-sm-6, .px-sm-6 {

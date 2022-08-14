@@ -1,3 +1,7 @@
+<?php
+  include("connection.php")
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,20 +32,20 @@
     <div class="container">
         <div class="card">
             <div class="card-body">
-                <form>
+                <form method="Post" action="login.php">
                  <center><h1>Welcome</h1></center> 
                     <!-- Email input -->
                     <div class="form-outline mb-4">
                         <label class="form-label" for="form2Example1">Email</label>
-                      <input type="email" id="form2Example1" class="form-control" />
+                      <input type="email" id="form2Example1" class="form-control" name="email" />
                     </div>
                   
                     <!-- Password input -->
                     <div class="form-outline mb-4">
                         <label class="form-label" for="form2Example2">Password</label>
-                      <input type="password" id="form2Example2" class="form-control" />
+                      <input type="password" id="form2Example2" class="form-control" name="password" />
                     </div>
-                  
+
                     <!-- 2 column grid layout for inline styling -->
                     <div class="row mb-4">
                       <div class="col d-flex justify-content-center">
@@ -60,13 +64,13 @@
                   
                     <!-- Submit button -->
                     <div class="logBtn">
-                      <button type="button" class="btn btn-primary btn-block mb-4" id="logButton">Login</button>
-                      <script>
+                      <input type="submit" class="btn btn-primary btn-block mb-4" id="logButton" value="Login">
+                      <!-- <script>
                         document.getElementById("logButton").addEventListener("click", myFunction);  
                       function myFunction() {  
                         window.location.href="result.html";  
                       }
-                    </script>
+                    </script> -->
                     </div>
                  
                   </form>
